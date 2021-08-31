@@ -9,3 +9,6 @@ export class Test {
 		console.log("b" + this.a);
 	}
 }
+interface Foo {
+	test(): string;
+}
