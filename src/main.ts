@@ -1,1 +1,3 @@
-export * from "./router";
+export function FirstFunc(test: string): string {
+	return "test:" + test;
+}

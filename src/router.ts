@@ -1,10 +1,11 @@
 export class Test {
-	public readonly a = 0;
+	public a = 0;
+	public readonly Str = `b:`;
 	private b = 0;
 	public constructor(a: number) {
-		this.b = a;
+		this.a = a;
 	}
-	public get Str(): String {
-		return `b:${this.b},a:${this.a}`;
+	public test() {
+		console.log("b" + this.a);
 	}
 }
