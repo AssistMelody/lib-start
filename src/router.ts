@@ -10,5 +10,5 @@ export class Test {
 	}
 }
 interface Foo {
-	test(): string;
+	test: () => string;
 }
