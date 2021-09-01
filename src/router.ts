@@ -6,7 +6,7 @@ export class Test {
 		this.a = a;
 	}
 	public test() {
-		console.log("b" + this.a);
+		console.log('b' + this.a);
 	}
 }
 interface Foo {
